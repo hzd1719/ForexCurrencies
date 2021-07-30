@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forex Currencies</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<script src = "index.js"></script>
+</head>
+<body>
+
+<div id = "AUD" class = "headers">
+    <img src="european-union.png" alt="EUROPEAN flag" id = "euro" class = "flags">
+    <img src="australia.png" alt="Australian flag" id = "australian-flag" class = "flags">
+    <h4>EURAUD</h4>
+    <p>EURO / AUSTRALIAN DOLLAR</p>
+    <p class = "numbers" id = "number">
+        <script>
+            if(AUD >= 1.0001) {
+                document.write(AUD);
+            }
+
+            else {
+                document.write(1.0001);
+            }
+        </script>
+    </p>
+    <script>
+        fun(AUD, "number");
+    </script>
+    
+</div>
+<div id = "USD" class = "headers">
+    <img src="european-union.png" alt="EUROPEAN flag" id = "euro" class = "flags">
+    <img src="united-states-of-america.png" alt="USA FLAG" id = "usa-flag" class = "flags">
+    <h4>EURUSD</h4>
+    <p>EURO / U.S. DOLLAR</p>
+    <p class = "numbers" id = "number-usd">
+        <script>
+            if(USD >= 1.0001) {
+                document.write(USD);
+            }
+            else {
+                document.write(1.0001);
+            }
+        </script>
+    </p>
+    <script>
+        fun(USD, "number-usd");
+    </script>
+</div>
+<div id = "GBP" class = "headers">
+    <img src="european-union.png" alt="EUROPEAN flag" id = "euro" class = "flags">
+    <img src="uk-flag.png" alt="UK FLAG" id = "uk-flag" class = "flags">
+    <h4>EURGBP</h4>
+    <p>EURO / BRITISH POUND</p>
+    <p class = "numbers">
+    <script>
+        if(GBP >= 1.0001) {
+            document.write(GBP);
+        }
+        else {
+            document.write(1.0001);
+        }
+    </script></p>
+</div>
+<div id = "BGN" class = "headers">
+    <img src="european-union.png" alt="EUROPEAN flag" id = "euro" class = "flags">
+    <img src="bulgaria.png" alt="BULGARIAN FLAG" id = "bulgaria-flag" class = "flags">
+    <h4>EURBGN</h4>
+    <p>EURO / BULGARIAN LEV</p>
+    <p class = "numbers" id = "number-bgn">
+        <script>
+            if(BGN >= 1.0001) {
+                document.write(BGN);
+            }
+            else {
+                document.write(1.0001);
+            }
+        </script>
+    </p>
+    <script>
+        fun(BGN, "number-bgn")
+    </script>
+</div>
+
+</body>
+</html>
+
+
